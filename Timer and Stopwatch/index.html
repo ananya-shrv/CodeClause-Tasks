@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer and Stopwatch</title>
+  <link rel="stylesheet" href="mainpage.css">
+</head>
+
+<body>
+  <div id="container" class="content-box">
+    <p>Choose an option:</p>
+    <div id="buttons">
+      <button id="openTimer">Timer</button>
+      <button id="openStopwatch">Stopwatch</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("openTimer").addEventListener("click", function () {
+      window.location.href = "timer.html";
+    });
+
+    document.getElementById("openStopwatch").addEventListener("click", function () {
+      window.location.href = "stopwatch.html";
+    });
+  </script>
+</body>
+
+</html>
 
